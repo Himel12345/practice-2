@@ -4,6 +4,7 @@
 /* style start */
 body {
     background-color: rgb(245, 236, 220);
+    margin: 0;
 }
 
 main {
@@ -135,20 +136,96 @@ main {
 }
 
 .price {
-   
-   margin-top: 5px;
+
+    margin-top: 5px;
     color: rgba(0, 0, 0, 0.87);
     font-weight: 400;
     font-size: 24px;
 }
-.fa-star{
-    margin-bottom:10px;
+
+.fa-star {
+    margin-bottom: 10px;
     color: #FB8200;
     margin-right: 3px;
 }
-.describe{
-   
+
+.describe {
+
     font-weight: 700;
-font-size: 14px;
-color: #787885;
+    font-size: 14px;
+    color: #787885;
+}
+
+/* last part */
+.last-one {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0px 165px;
+
+}
+
+.last-one-img {
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+
+.last-one-text {
+    margin-left: 95px;
+    margin-bottom: 45px;
+
+}
+
+.text-decoration {
+    font-weight: 700;
+    font-size: 28px;
+    color: #0A0826;
+    margin-bottom: -10px;
+}
+
+.p-decoration {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
+
+/* footer */
+.footer {
+    background-color: rgb(10, 59, 56);
+    margin-top: 100px;
+
+    height: 280px;
+
+}
+
+.footer-2 {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.footer-p {
+    font-weight: 700;
+    font-size: 14px;
+    color: #767883;
+}
+
+.footer-p-2 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #767885;
+}
+
+.fa-brands {
+    padding: 6px;
+    color: #d3d3e1;
 }
